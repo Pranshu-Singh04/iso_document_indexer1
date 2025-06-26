@@ -22,7 +22,7 @@ This project aims to build an automated system to:
 | Component | Tool |
 |----------|------|
 | Language | Python 3.x |
-| Libraries | `requests`, `beautifulsoup4`, `PyMuPDF`, `pdfminer.six`, `lxml`, `sqlite3`, `pandas` |
+| Libraries | `requests`, `beautifulsoup4`, `PyMuPDF`, `pdfminer.six`, `lxml`, `sqlite3`, `pandas`, `playwright` |
 | Version Control | GitHub |
 | Storage Format | SQLite / JSON / CSV |
 | Documentation | Markdown + inline comments |
@@ -31,7 +31,7 @@ This project aims to build an automated system to:
 
 ## 🛠️ Setup Instructions
 1. 📦 Clone the Repository
-git clone https://github.com/yourname/iso_document_indexer.git 
+git clone https://github.com/yourname/iso_document_indexer1.git 
 cd iso_document_indexer
 
 *Replace yourname with your GitHub username or private repo path.* 
@@ -71,12 +71,12 @@ pip install -r requirements.txt
 ## 4. 📄 Prepare URL List
 Create a file named urls_to_crawl.txt in the root folder:
 urls_to_crawl.txt:
-https://public.resource.org/
+https://www.scc.ca/en/standardsdb
+https://www.iso.org/obp/ui
+https://www.regulations.gov/
 https://ieeexplore.ieee.org/
-https://www.iso.org/home.html 
-https://www.scc.ca/en/standardsdb 
-https://www.regulations.gov/ 
-https://www.etsi.org/standards-search 
+https://www.etsi.org/standards-search
+https://public.resource.org/
 
 ⚠️ Only include freely downloadable URLs — avoid login walls or paywalled content 
 
