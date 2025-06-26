@@ -1,1 +1,6 @@
 https://www.scc.ca/en/standardsdb
+https://www.iso.org/obp/ui
+https://www.regulations.gov/
+https://ieeexplore.ieee.org/
+https://www.etsi.org/standards-search
+https://public.resource.org/
