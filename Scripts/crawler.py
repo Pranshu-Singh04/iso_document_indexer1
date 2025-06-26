@@ -268,9 +268,6 @@ class EnhancedCrawler:
             logging.error(f"Preview rendering failed for ISO: {str(e)}")
             return None
 
-    def generate_etsi_pdf_link(self, standard_type, number_range, number, version, format="en"):
-        return f"https://www.etsi.org/deliver/etsi_{standard_type}/{number_range}/{number}/{version}/{format}/en_{number}v{version}p.pdf" 
-
     def extract_links(self, soup, base_url):
         """Extract all links from a page, not just document patterns"""
         links = []
