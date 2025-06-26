@@ -58,18 +58,21 @@ lxml
 sqlite3
 pandas
 redis
+playwright
+fake-useragent
+
+
+Install Chromium for Playwright
+Run after installing Playwright: playwright install chromium
 
 Then run:
-
 pip install -r requirements.txt
 
 ## 4. 📄 Prepare URL List
 Create a file named urls_to_crawl.txt in the root folder:
-urls_to_crawl.txt 
-
-https://public.resource.org/DOE/NREL/U.S.+Department+of+Energy+Buildings+Energy+Data+Book/ 
-https://public.resource.org/scribd/2556263.pdf 
-https://ieeexplore.ieee.org/document/IEEE-802.15.4-2020/ 
+urls_to_crawl.txt:
+https://public.resource.org/
+https://ieeexplore.ieee.org/
 https://www.iso.org/home.html 
 https://www.scc.ca/en/standardsdb 
 https://www.regulations.gov/ 
@@ -82,7 +85,7 @@ https://www.etsi.org/standards-search
 
 ### Step 1: Configure Seed URLs
 Edit urls_to_crawl.txt with valid public document repositories:
-https://public.resource.org/standards 
+https://public.resource.org/standards
 https://www.iso.org/obp/ui
           
 **OR**
