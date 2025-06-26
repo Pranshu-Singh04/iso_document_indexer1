@@ -16,7 +16,8 @@ import redis
 import fitz  # PyMuPDF
 import xml.etree.ElementTree as ET
 import hashlib
-import urllib         
+import urllib
+import ssl
 
 
 # Configuration
