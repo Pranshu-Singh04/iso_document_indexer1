@@ -3,3 +3,7 @@ requests
 redis
 beautifulsoup4
 lxml
+Playwright
+fake-useragent
+# Install Chromium for Playwright
+# Run after installing Playwright: playwright install chromium
